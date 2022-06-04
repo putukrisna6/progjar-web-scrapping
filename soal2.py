@@ -12,5 +12,5 @@ def getGoPackage(query, n):
         else:
             print(list_pkg.find('p').text.strip()+"\n")
 
-getGoPackage("sort", 10)
+getGoPackage(sys.argv[1], sys.argv[2])
 # print(getGoBlog(sys.argv[1]))
